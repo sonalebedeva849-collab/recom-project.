@@ -195,20 +195,78 @@ footer {
 }
 
 max-width: 700px {
+
+    header {
+        height: auto;
+        min-height: 70px;
+        padding: 12px 15px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .profile {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .search {
+        order: 3;
+        width: 100%;
+        padding: 11px 15px;
+    }
+
     .sidebar {
         display: none;
     }
 
     main {
-        padding: 20px;
+        padding: 25px 15px;
     }
 
-    header {
-        padding: 0 15px;
+    h1 {
+        font-size: 25px;
     }
 
-    .search {
-        width: 45%;
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+
+    .categories {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 8px;
+    }
+
+    .category {
+        white-space: nowrap;
+        padding: 9px 15px;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .thumbnail {
+        height: 180px;
+    }
+
+    .recommendation {
+        margin-top: 25px;
+        padding: 18px;
+    }
+
+    .recommendation h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px 15px;
     }
 }
 </style>
@@ -563,4 +621,4 @@ renderVideos();
 
 </body>
 
-</html> 
+</html> s
